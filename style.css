@@ -104,6 +104,7 @@ a {
 .sfoglia-quotidiano{
     width: 250px;
     font-family: 'PoynterOldstyleDisplay-SemiBold', sans-serif;
+
 }
 .sfoglia-quotidiano:hover{
     background-color: lightgrey;
