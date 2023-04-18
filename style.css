@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@font-face {
+    font-family: 'PoynterOldstyleDisplay-NarBold';
+    src:url(font/PoynterOldstyleDisplay-NarBold/PoynterOldStyleDisplay-NarBold.ttf);
+}
+@font-face {
+    font-family: 'Franklin_Gothic_Book' ;
+    src:url(font/FranklinGothicBookRegular/FranklinGothicBookRegular.ttf);
+}
+@font-face {
+    font-family: 'PoynterOldstyleDisplay-SemiBold' ;
+    src:url(font/PoynterOldstyleDisplay-SemiBold/PoynterOldStyleDisplay-SemiBold.ttf);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-height: 1020px) {
+    /*da 480 in giù (tolgo la scroll icon) e ricentro verticalmente il logo*/
+    .main-content {
+        max-width: 1020px;
+    }
+}
+@media screen and (max-height: 600px) {
+    .flex-row-reverse{
+        justify-content: center;
+    }
+}
+
+
+.main-content {
+    display: block;
+    margin: auto;
+}
+
+.line {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 16px;
+    height: 0.5px;
+    background-color: black;
+}
+
+#featured-news {
+    margin: 4px;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+.social {
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+#newsletter {
+    width: 250px;
+    height: 100%;
+}
+
+#newsletter:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+#newsletter img {
+    width: 20px;
+    margin: 12px;
+}
+
+.facebook-twitter-instagram {
+    margin-left: auto;
+    margin-right: 0;
+}
+.utente{
+    margin-left: auto;
+    margin-right: 0;
+}
+.log-in{
+    padding: 12px;
+}
+.log-in:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.log-in img{
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+    object-fit: cover;
+
+}
+.bottone-accedi{
+    border: none;
+    background-color: #921421;
+    color: white;
+    padding: 6px 16px;
+}
+
+.sfoglia-quotidiano{
+    width: 250px;
+    font-family: 'PoynterOldstyleDisplay-SemiBold', sans-serif;
+}
+.sfoglia-quotidiano:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.sfoglia-quotidiano img{
+    height: 20px;
+    width: 20px;
+    margin: 12px;
+}
+
+
+
+.social-page {
+    width: 30px;
+}
+.social-page img {
+    width: 20px;
+    margin: 12px;
+}
+
+
+
+
+#header {
+    height: 100px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+}
+
+#headline { /*le immagini sono sempre messe centrali rispetto a un flexbox*/
+    height: 100%;
+    /*display: block;*/
+    margin: auto;
+}
+
+#menu {
+    background-color: #063A74;
+    height: 50px;
+    margin: 15px 0px 15px 0px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 8px;
+    padding-bottom: 4px;
+
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#menu #search {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#menu img {
+    width: 25px;
+    margin: 5px;
+}
+
+#choices {
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+}
+
+.choice {
+    margin: 0px 8px 0px 8px;
+}
+
+#edition-choice {
+    text-align: center;
+}
+#edition-choice h5{
+    font-family:'Franklin_Gothic_Book', sans-serif;
+    font-weight: bold;
+}
+#editions {
+    /*display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;*/
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Franklin_Gothic_Book', sans-serif;
+}
+
+#testo-a-destra {
+    margin-right: 0;
+    padding: 0;
+}
+
+#In-Evidenza {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 8px;
+}
+
+.container{
+    padding: 0;
+}
+.row {
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
+}
+
+.row h5 {
+    margin: 8px 0 8px 0;
+    color: darkred;
+    font-weight: bold;
+}
+
+.row h2 {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+
+.row h4 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.row h6 {
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    background-color: #063A74;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.row h7 {
+    font-weight: bold;
+    font-size: 21px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.row h8 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 4px;
+    margin: 0;
+}
+
+.row img {
+    width: 100%;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+.row a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.le-iniziative {
+    background-color: #e6e6e6;
+    padding: 0px;
+}
+
+.le-iniziative img {
+    width: 90%;
+}
+
+.le-iniziative p {
+    font-weight: bold;
+    font-size: 19px;
+    margin: 16px 0px 16px 0px;
+    padding: 4px;
+    font-family: ITCFranklinGothicStd-Book, Franklin_Gothic_Book, PoynterOldstyleDisplay-SemiBold, PoynterOldstyleDisplay-NarSemiBd, PoynterOldstyleDisplay-NarRoman, PoynterOldstyleDisplay-NarBold, Utopia-Regular;
+}
+
+#hr-iniziative {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#le-iniziative2 {
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    text-decoration-color: white;
+}
+
+.image-Uniss {
+    margin: 8px;
+    text-align: center;
+}
+
+.image-Uniss img {
+    width: 100%;
+}
+
+.paragrafi-iniziative {
+    padding: 4px;
+}
+
+.articoli-in-Evidenza {
+    padding: 24px 0 0 0;
+}
+
+.autore {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    font-weight: bold;
+
+}
+
+.pubblicità {
+    margin: 4px;
+}
+
+.sezione-destra-sport h5{
+    margin: 0;
+    color: darkred;
+    font-weight: bold;
+
+}
+.sotto-articoli-senza-immagine{
+padding: 8px 12px 0px 12px;
+}
+.sotto-articoli-senza-immagine h5{
+    margin: 8px 0 8px 0;
+    color: darkred;
+    font-weight: bold;
+}
+
+.bottom-sezione-sport{
+    padding: 16px 12px 0px 16px
+}
+
+.sezione-sport h4{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.promozione{
+    background-image: url("img/articles/bannerPromozione.jpg");
+    background-size: 100% 100%;
+    height: 208px;
+    width: 100%;
+    padding: 0;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+#promozione-verticale{
+    margin: 12px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+}
+#promozione-verticale h1{
+    line-height: 1.235;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
+    font-weight: bold;
+    margin:0;
+}
+#promozione-verticale h2{
+    font-size: 21px;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
+    font-weight: bold;
+}
+#promozione-orizzontale{
+    margin: 12px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    color: white;
+}
+.button{
+    background-color: white;
+    border: none;
+    color:#921421;
+    border-radius: 0;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+    height: 28px;
+    width: 125px;
+    margin-left: 12px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+.button:hover {
+    color: #921421;
+    background-color: white;
+}
+#bottone-promozionale{
+    position: absolute;
+    bottom:10px;
+    right: 12px;
+
+}
+
+.promozione1{
+    background-image: url("img/articles/bannerPromozione.jpg");
+    background-size: 100% 100%;
+    height: 208px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 16px;
+}
+.promozione1 h1{
+    line-height: 1.235;
+    font-family: PoynterOldstyleDisplay-NarBold;
+    font-weight: bold;
+    margin:0;
+}
+.promozione1 h2{
+    font-size: 21px;
+    font-family: PoynterOldstyleDisplay-NarBold;
+    font-weight: bold;
+}
+#titolo-promozione{
+    margin: 12px;
+    color: white;
+}
+.spettacoli-e-cultura h2{
+
+    margin: 0;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.spettacoli-e-cultura h4{
+    margin: 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.spettacoli-e-cultura-small-immagini{
+    padding: 20px 12px 0px 16px
+}
+.spettacoli-e-cultura-small-immagini h4{
+    margin: 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.foto-testo-com-e-op{
+    padding:16px;
+    border-radius: 4px;
+    border-bottom: 2px outset lightgray;
+    border-top: 1px outset lightgray;
+    border-left: 1px outset lightgray;
+    border-right: 1px outset lightgray;
+}
+.foto-testo-com-e-op h4{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;}
+
+.foto-testo-com-e-op img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    object-fit: cover;
+}
+
+.footer-image-logo img{
+    width:90%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.flex-row-reverse{
+    align-items: center;
+}
+
+.p-2 img{
+    width: 20px;
+    margin: 12px;
+}
+.row-footer-info{
+    text-align: center;
+    padding: 16px;
+}
+.row-footer-info h1{
+    font-size: 18px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+.col-2-footer{
+    padding:16px 8px 16px 16px;
+    text-align: center;
+
+}
+.flex-row{
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.flex-row h1{
+    font-size: 18px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.immagine-videocamera{
+    background-color: #921421;
+    border: 16px;
+    display: block;
+    text-align: center;
+
+}
+.immagine-videocamera img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    position: relative;
+    bottom:24px;
+    z-index: 2;
+    border-radius: 50%;
+}
+.container-video{
+    padding-top: 24px;
+}
+
+.container-video #header-video{
+    background-color: #921421;
+    text-align: center;
+}
+#header-video h1{
+    font-size: 21px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+.container-video .row-video{
+
+}
+.row-video h1{
+    color: white;
+    font-size:14px;
+    margin: 0 8px;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
+}
+.row-video h2{
+    font-size:20px;
+    color: white;
+    margin: 0 8px;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
+}
+.container-video .video-in-evidenza{
+padding: 8px;
+}
+
+
+.sfondo-video{
+    background-color: #921421;
+
+}
