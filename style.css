@@ -8,7 +8,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'PoynterOldstyleDisplay-SemiBold';
+    font-family: PoynterOldstyleDisplay-SemiBold;
     src: local('Poynter Semi Bold'), local('Poynter-Semi-Bold'),
     url('./fonts/PoynterOldstyleDisplay-SemiBold/PoynterOldstyleDisplay-SemiBold.woff2') format('woff2'),
     url('./fonts/PoynterOldstyleDisplay-SemiBold/PoynterOldstyleDisplay-SemiBold.woff') format('woff'),
