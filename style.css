@@ -31,6 +31,16 @@
         justify-content: center;
     }
 
+    #titolo-promozione{
+        display: block;
+        text-align: center;
+    }
+    #bottone-promozionale{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 
 a {
@@ -465,7 +475,7 @@ padding: 8px 12px 0px 12px;
     margin-left: auto;
     margin-right: 0px;
     color: white;
-    position: relative;
+
 
 }
 
