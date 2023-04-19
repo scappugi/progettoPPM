@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'PoynterOldstyleDisplay-NarBold';
-    src:url(./font/PoynterOldstyleDisplay-NarBold/PoynterOldStyleDisplay-NarBold.ttf);
+    src:url("./font/PoynterOldstyleDisplay-NarBold/PoynterOldStyleDisplay-NarBold.ttf") format("opentype");
 }
 @font-face {
     font-family: 'Franklin_Gothic_Book' ;
@@ -76,6 +76,8 @@ a {
 #newsletter {
     width: 250px;
     height: 100%;
+    font-family: ITCFranklinGothicStd-Book, sans-serif;
+    font-size: 14px;
 }
 
 #newsletter:hover {
