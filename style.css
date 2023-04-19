@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
 @font-face {
     font-family: 'PoynterOldstyleDisplay-NarBold';
     src:url(/font/PoynterOldstyleDisplay-NarBold/PoynterOldStyleDisplay-NarBold.ttf);
@@ -9,7 +8,7 @@
 }
 @font-face {
     font-family: 'PoynterOldstyleDisplay-SemiBold' ;
-    src:url(/font/PoynterOldstyleDisplay-SemiBold/PoynterOldStyleDisplay-SemiBold.ttf);
+    src:url(/font/PoynterOldStyleDisplay-SemiBold.ttf);
 }
 @font-face{
     font-family: 'ITCFranklinGothicStd-Book';
