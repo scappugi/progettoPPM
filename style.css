@@ -1,14 +1,15 @@
 @font-face {
     font-family: PoynterOldstyleDisplay-NarBold;
-    src:url("fonts/PoynterOldStyleDisplay-NarBold.ttf") format("opentype");
+    src: local('Poynter Nar Bold'), local('Poynter-Nar-Bold'),
+    url('./fonts/PoynterOldstyleDisplay-NarBold/PoynterOldstyleDisplay-NarBold.woff2') format('woff2'),
+    url('./fonts/PoynterOldstyleDisplay-NarBold/PoynterOldstyleDisplay-NarBold.woff') format('woff'),
+    url('./fonts/PoynterOldstyleDisplay-NarBold/PoynterOldstyleDisplay-NarBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
     font-family: 'Franklin_Gothic_Book' ;
     src:url("fonts/FranklinGothicBookRegular.ttf") format("opentype");
-}
-@font-face {
-    font-family: 'PoynterOldstyleDisplay-SemiBold' ;
-    src:url(fonts/PoynterOldStyleDisplay-SemiBold.ttf);
 }
 @font-face{
     font-family: 'ITCFranklinGothicStd-Book';
@@ -76,7 +77,7 @@ a {
 #newsletter {
     width: 250px;
     height: 100%;
-    font-family: 'ITCFranklinGothicStd-Book';
+    font-family: 'ITCFranklinGothicStd-Book', sans-serif;
     font-size: 14px;
 }
 
@@ -257,7 +258,7 @@ a {
 
 
 .row {
-    font-family: PoynterOldstyleDisplay-NarBold, sans-serif;
+    font-family: "PoynterOldstyleDisplay-NarBold", sans-serif;
 }
 
 .row h5 {
@@ -616,7 +617,7 @@ padding: 8px 12px 0px 12px;
 }
 #header-video h1{
     font-size: 21px;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     font-weight: bold;
     margin: 0;
     color: white;

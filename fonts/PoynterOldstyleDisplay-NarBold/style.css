@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Poynter';
+    src: local('Poynter Nar Bold'), local('Poynter-Nar-Bold'),
+        url('PoynterOldstyleDisplay-NarBold.woff2') format('woff2'),
+        url('PoynterOldstyleDisplay-NarBold.woff') format('woff'),
+        url('PoynterOldstyleDisplay-NarBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

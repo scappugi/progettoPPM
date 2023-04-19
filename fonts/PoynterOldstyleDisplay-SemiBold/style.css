@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Poynter';
+    src: local('Poynter Semi Bold'), local('Poynter-Semi-Bold'),
+        url('PoynterOldstyleDisplay-SemiBold.woff2') format('woff2'),
+        url('PoynterOldstyleDisplay-SemiBold.woff') format('woff'),
+        url('PoynterOldstyleDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
