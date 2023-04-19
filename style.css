@@ -11,24 +11,34 @@
     font-family: 'PoynterOldstyleDisplay-SemiBold' ;
     src:url(font/PoynterOldstyleDisplay-SemiBold/PoynterOldStyleDisplay-SemiBold.ttf);
 }
-a {
-    text-decoration: none;
-    color: black;
+@font-face{
+    font-family: 'ITCFranklinGothicStd-Book';
+    src:url(font/ITCFranklinGothicBook/ITCFranklinGothicStd-Book.otf);
 }
-
 @media screen and (max-height: 1020px) {
     /*da 480 in giù (tolgo la scroll icon) e ricentro verticalmente il logo*/
     .main-content {
         max-width: 1020px;
     }
 }
-@media screen and (max-height: 600px) {
+@media screen and (max-width: 768px) {
+.footer-image-logo{
+    display: block;
+    text-align: center;
+}
+    .footer-image-logo img{
+        max-width: 200px;
+ }
     .flex-row-reverse{
         justify-content: center;
     }
+
 }
 
-
+a {
+    text-decoration: none;
+    color: black;
+}
 .main-content {
     display: block;
     margin: auto;
@@ -198,10 +208,11 @@ a {
     font-family:'Franklin_Gothic_Book', sans-serif;
     font-weight: bold;
 }
+
 #editions {
-    /*display: -webkit-box;
+    display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;*/
+    display: -ms-flexbox;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -220,6 +231,8 @@ a {
     width: 100%;
     font-weight: bold;
     font-size: 14px;
+}
+#editions a {
     font-family: 'Franklin_Gothic_Book', sans-serif;
 }
 
@@ -258,7 +271,7 @@ a {
 .row h4 {
     font-weight: bold;
     font-size: 21px;
-    line-height: 21px;
+    line-height: 24px;
 }
 
 .row h6 {
@@ -272,19 +285,14 @@ a {
     margin-top: 4px;
 }
 
-.row h7 {
+.row h3 {
     font-weight: bold;
     font-size: 21px;
     padding: 8px;
     margin: 4px;
 }
 
-.row h8 {
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 4px;
-    margin: 0;
-}
+
 
 .row img {
     width: 100%;
@@ -313,7 +321,7 @@ a {
     font-size: 19px;
     margin: 16px 0px 16px 0px;
     padding: 4px;
-    font-family: ITCFranklinGothicStd-Book, Franklin_Gothic_Book, PoynterOldstyleDisplay-SemiBold, PoynterOldstyleDisplay-NarSemiBd, PoynterOldstyleDisplay-NarRoman, PoynterOldstyleDisplay-NarBold, Utopia-Regular;
+    font-family: 'PoynterOldstyleDisplay-NarBold',sans-serif;
 }
 
 #hr-iniziative {
@@ -343,6 +351,12 @@ a {
 
 .articoli-in-Evidenza {
     padding: 24px 0 0 0;
+}
+.articoli-in-Evidenza h1{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 24px;
+    margin: 0;
 }
 
 .autore {
@@ -438,7 +452,7 @@ padding: 8px 12px 0px 12px;
     height: 28px;
     width: 125px;
     margin-left: 12px;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'ITCFranklinGothicStd-Book', sans-serif;
 }
 .button:hover {
     color: #921421;
@@ -458,6 +472,7 @@ padding: 8px 12px 0px 12px;
     width: 100%;
     position: relative;
     margin-bottom: 16px;
+    margin-top: 8px;
 }
 .promozione1 h1{
     line-height: 1.235;
@@ -474,6 +489,13 @@ padding: 8px 12px 0px 12px;
     margin: 12px;
     color: white;
 }
+#titolo-promozione h1{
+    font-size: 30px;
+}
+#titolo-promozione h2{
+    font-size: 19px;
+}
+
 .spettacoli-e-cultura h2{
 
     margin: 0;
@@ -536,9 +558,10 @@ padding: 8px 12px 0px 12px;
     text-align: center;
     padding: 16px;
 }
-.row-footer-info h1{
+
+.row-footer-info .info h1{
     font-size: 18px;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    font-family: 'Franklin_Gothic_Book', sans-serif;
 }
 .col-2-footer{
     padding:16px 8px 16px 16px;
