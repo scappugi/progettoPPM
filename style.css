@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
 @font-face {
     font-family: 'PoynterOldstyleDisplay-NarBold';
-    src:url(font/PoynterOldstyleDisplay-NarBold/PoynterOldStyleDisplay-NarBold.ttf);
+    src:url(/font/PoynterOldstyleDisplay-NarBold/PoynterOldStyleDisplay-NarBold.ttf);
 }
 @font-face {
     font-family: 'Franklin_Gothic_Book' ;
-    src:url(font/FranklinGothicBookRegular/FranklinGothicBookRegular.ttf);
+    src:url(/font/FranklinGothicBookRegular/FranklinGothicBookRegular.ttf);
 }
 @font-face {
     font-family: 'PoynterOldstyleDisplay-SemiBold' ;
-    src:url(font/PoynterOldstyleDisplay-SemiBold/PoynterOldStyleDisplay-SemiBold.ttf);
+    src:url(/font/PoynterOldstyleDisplay-SemiBold/PoynterOldStyleDisplay-SemiBold.ttf);
 }
 @font-face{
     font-family: 'ITCFranklinGothicStd-Book';
-    src:url(font/ITCFranklinGothicBook/ITCFranklinGothicStd-Book.otf);
+    src:url(/font/ITCFranklinGothicBook/ITCFranklinGothicStd-Book.otf);
 }
 @media screen and (max-height: 1020px) {
-    /*da 480 in giù (tolgo la scroll icon) e ricentro verticalmente il logo*/
     .main-content {
         max-width: 1020px;
     }
@@ -55,7 +54,6 @@ a {
 #featured-news {
     margin: 4px;
     padding: 8px;
-    margin-top: 4px;
 }
 
 .social {
@@ -137,8 +135,6 @@ a {
 }
 
 
-
-
 #header {
     height: 100px;
     padding: 8px;
@@ -150,7 +146,7 @@ a {
 
 #headline { /*le immagini sono sempre messe centrali rispetto a un flexbox*/
     height: 100%;
-    /*display: block;*/
+    display: block;
     margin: auto;
 }
 
@@ -193,8 +189,7 @@ a {
 
 #choices {
     display: block;
-    margin: auto;
-    margin-top: 4px;
+    margin: 4px auto auto;
 }
 
 .choice {
