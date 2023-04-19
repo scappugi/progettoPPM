@@ -76,7 +76,7 @@ a {
 #newsletter {
     width: 250px;
     height: 100%;
-    font-family: ITCFranklinGothicStd-Book, sans-serif;
+    font-family: 'ITCFranklinGothicStd-Book';
     font-size: 14px;
 }
 
@@ -257,7 +257,7 @@ a {
 
 
 .row {
-    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
+    font-family: 'PoynterOldstyleDisplay-NarBold';
 }
 
 .row h5 {
