@@ -131,7 +131,7 @@ a {
 
 .sfoglia-quotidiano{
     width: 250px;
-    font-family: 'PoynterOldstyleDisplay-SemiBold', sans-serif;
+    font-family: 'PoynterOldstyleDisplay-SemiBold','PoynterOldstyleDisplay-NarBold', sans-serif;
 
 }
 .sfoglia-quotidiano:hover{
