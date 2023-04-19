@@ -53,9 +53,7 @@ a {
 }
 
 .line {
-    height: 1px;
     background-color: black;
-    border: none;
     margin-top: 16px;
     margin-bottom: 10px;
     opacity: 1;
