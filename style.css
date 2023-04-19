@@ -8,6 +8,15 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'PoynterOldstyleDisplay-SemiBold';
+    src: local('Poynter Semi Bold'), local('Poynter-Semi-Bold'),
+    url('./fonts/PoynterOldstyleDisplay-SemiBold/PoynterOldstyleDisplay-SemiBold.woff2') format('woff2'),
+    url('./fonts/PoynterOldstyleDisplay-SemiBold/PoynterOldstyleDisplay-SemiBold.woff') format('woff'),
+    url('./fonts/PoynterOldstyleDisplay-SemiBold/PoynterOldstyleDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Franklin_Gothic_Book' ;
     src:url("fonts/FranklinGothicBookRegular.ttf") format("opentype");
 }
