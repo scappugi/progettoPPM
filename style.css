@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'PoynterOldstyleDisplay-NarBold';
+    font-family: PoynterOldstyleDisplay-NarBold;
     src:url("fonts/PoynterOldStyleDisplay-NarBold.ttf") format("opentype");
 }
 @font-face {
@@ -257,7 +257,7 @@ a {
 
 
 .row {
-    font-family: 'PoynterOldstyleDisplay-NarBold';
+    font-family: PoynterOldstyleDisplay-NarBold, sans-serif;
 }
 
 .row h5 {
