@@ -203,10 +203,11 @@ a {
 
 #edition-choice {
     text-align: center;
+
 }
 #edition-choice h5{
-    font-family:'Franklin_Gothic_Book', sans-serif;
     font-weight: bold;
+    font-family: 'Franklin_Gothic_Book', sans-serif;
 }
 
 #editions {
@@ -249,9 +250,7 @@ a {
     padding: 8px;
 }
 
-.container{
-    padding: 0;
-}
+
 .row {
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
 }
@@ -476,13 +475,13 @@ padding: 8px 12px 0px 12px;
 }
 .promozione1 h1{
     line-height: 1.235;
-    font-family: PoynterOldstyleDisplay-NarBold;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     font-weight: bold;
     margin:0;
 }
 .promozione1 h2{
     font-size: 21px;
-    font-family: PoynterOldstyleDisplay-NarBold;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     font-weight: bold;
 }
 #titolo-promozione{
