@@ -309,6 +309,7 @@ a {
 .le-iniziative {
     background-color: #e6e6e6;
     padding: 0px;
+    font-family: 'PoynterOldstyleDisplay-NarBold',sans-serif;
 }
 
 .le-iniziative img {
@@ -320,7 +321,7 @@ a {
     font-size: 19px;
     margin: 16px 0px 16px 0px;
     padding: 4px;
-    font-family: 'PoynterOldstyleDisplay-NarBold',sans-serif;
+
 }
 
 .hr-iniziative {
@@ -363,7 +364,6 @@ a {
     font-size: 12px;
     font-weight: 400;
     line-height: 21px;
-    font-weight: bold;
 
 }
 
