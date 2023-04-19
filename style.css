@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: 'PoynterOldstyleDisplay-SemiBold' ;
-    src:url(/font/PoynterOldStyleDisplay-SemiBold.ttf);
+    src:url(/font/PoynterOldstyleDisplay-SemiBold/PoynterOldStyleDisplay-SemiBold.ttf);
 }
 @font-face{
     font-family: 'ITCFranklinGothicStd-Book';
@@ -43,11 +43,12 @@ a {
 }
 
 .line {
-    width: 100%;
-    margin-bottom: 10px;
-    margin-top: 16px;
-    height: 0.5px;
+    height: 1px;
     background-color: black;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    opacity: 1;
 }
 
 #featured-news {
@@ -452,9 +453,19 @@ padding: 8px 12px 0px 12px;
     background-color: white;
 }
 #bottone-promozionale{
+    display: flex;
     position: absolute;
     bottom:10px;
-    right: 12px;
+    align-items: center;
+}
+
+#bottone-promozionale p1{
+    font-size: 30px;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
+    margin-left: auto;
+    margin-right: 0px;
+    color: white;
+    position: relative;
 
 }
 
@@ -490,8 +501,7 @@ padding: 8px 12px 0px 12px;
 }
 
 .spettacoli-e-cultura h2{
-
-    margin: 0;
+    margin: 0 0 1px;
     font-weight: bold;
     font-size: 35px;
 
@@ -623,5 +633,47 @@ padding: 8px;
 
 .sfondo-video{
     background-color: #921421;
+}
+.footer-gruppo-sae{
+    background-color: #063A74;
+    padding: 0;
+    margin: 0;
+}
+.container-footer-gruppo-sae {
+    padding:16px;
+}
+.footer-gruppo-sae .immagini-testo{
+    padding:16px 0 0 0;
 
+}
+.footer-gruppo-sae .immagini-testo img{
+    height: 100px;
+    width: 100px;
+}
+.footer-gruppo-sae .immagini-testo h6{
+    font-size: 18px;
+    font-family: 'Franklin_Gothic_Book', sans-serif;
+    margin: 0;
+    color: white;
+    line-height: 30px;
+}
+
+.footer-gruppo-sae .immagini-testo h5{
+    font-size: 16px;
+    font-family: 'Franklin_Gothic_Book', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+    line-height: 20px;
+}
+
+
+
+.white{
+    height: 1px;
+    background-color: #fff;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    opacity: 1;
 }
