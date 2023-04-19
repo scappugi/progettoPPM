@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'PoynterOldstyleDisplay-NarBold';
-    src:url("./font/PoynterOldStyleDisplay-NarBold.ttf") format("opentype");
+    src:url("fonts/PoynterOldStyleDisplay-NarBold.ttf") format("opentype");
 }
 @font-face {
     font-family: 'Franklin_Gothic_Book' ;
-    src:url("./font/FranklinGothicBookRegular.ttf") format("opentype");
+    src:url("fonts/FranklinGothicBookRegular.ttf") format("opentype");
 }
 @font-face {
     font-family: 'PoynterOldstyleDisplay-SemiBold' ;
-    src:url(./font/PoynterOldStyleDisplay-SemiBold.ttf);
+    src:url(fonts/PoynterOldStyleDisplay-SemiBold.ttf);
 }
 @font-face{
     font-family: 'ITCFranklinGothicStd-Book';
-    src:url(./font/ITCFranklinGothicStd-Book.otf);
+    src:url(fonts/ITCFranklinGothicStd-Book.otf);
 }
 @media screen and (max-height: 1020px) {
     .main-content {
