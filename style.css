@@ -61,6 +61,7 @@
 }
 
 @media screen and (max-width: 768px) {
+    /*faccio scomparire le seguenti classi*/
     .utente {
         display: none;
     }
