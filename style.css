@@ -57,6 +57,10 @@
         flex-direction: column;
         justify-content: center;
     }
+    .immagini-testo{
+        display: block;
+        text-align: center
+    }
 
 }
 
@@ -587,10 +591,7 @@ a {
 .foto-testo-com-e-op {
     padding: 16px;
     border-radius: 4px;
-    border-bottom: 2px outset lightgray;
-    border-top: 1px outset lightgray;
-    border-left: 1px outset lightgray;
-    border-right: 1px outset lightgray;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
 }
 
 .foto-testo-com-e-op h4 {
