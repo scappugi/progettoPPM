@@ -7,6 +7,7 @@
     font-weight: 700;
     font-style: normal;
 }
+
 @font-face {
     font-family: PoynterOldstyleDisplay-SemiBold;
     src: local('Poynter Semi Bold'), local('Poynter-Semi-Bold'),
@@ -16,36 +17,42 @@
     font-weight: 600;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Franklin_Gothic_Book' ;
-    src:url("fonts/FranklinGothicBookRegular.ttf") format("opentype");
+    src: url("fonts/FranklinGothicBookRegular.ttf") format("opentype");
 }
-@font-face{
+
+@font-face {
     font-family: 'ITCFranklinGothicStd-Book';
-    src:url(fonts/ITCFranklinGothicStd-Book.otf);
+    src: url(fonts/ITCFranklinGothicStd-Book.otf);
 }
+
 @media screen and (max-height: 1020px) {
     .main-content {
         max-width: 1020px;
     }
 }
-@media screen and (max-width: 768px) {
-.footer-image-logo{
-    display: block;
-    text-align: center;
-}
-    .footer-image-logo img{
-        max-width: 200px;
- }
-    .flex-row-reverse{
-        justify-content: center;
-    }
 
-    #titolo-promozione{
+@media screen and (max-width: 768px) {
+    .footer-image-logo {
         display: block;
         text-align: center;
     }
-    #bottone-promozionale{
+
+    .footer-image-logo img {
+        max-width: 200px;
+    }
+
+    .flex-row-reverse {
+        justify-content: center;
+    }
+
+    #titolo-promozione {
+        text-align: center;
+    }
+
+    #bottone-promozionale {
         align-items: center;
         flex-direction: column;
         justify-content: center;
@@ -53,10 +60,20 @@
 
 }
 
+@media screen and (max-width: 768px) {
+    .utente {
+        display: none;
+    }
+    .sfoglia-quotidiano{
+        display: none;
+    }
+}
+
 a {
     text-decoration: none;
     color: black;
 }
+
 .main-content {
     display: block;
     margin: auto;
@@ -104,51 +121,58 @@ a {
     margin-left: auto;
     margin-right: 0;
 }
-.utente{
+
+.utente {
     margin-left: auto;
     margin-right: 0;
 }
-.log-in{
+
+.log-in {
     padding: 12px;
 }
-.log-in:hover{
+
+.log-in:hover {
     background-color: lightgrey;
     color: black;
 }
-.log-in img{
+
+.log-in img {
     height: 20px;
     width: 20px;
     margin: 4px;
     object-fit: cover;
 
 }
-.bottone-accedi{
+
+.bottone-accedi {
     border: none;
     background-color: #921421;
     color: white;
     padding: 6px 16px;
 }
 
-.sfoglia-quotidiano{
+.sfoglia-quotidiano {
     width: 250px;
-    font-family: 'PoynterOldstyleDisplay-SemiBold','PoynterOldstyleDisplay-NarBold', sans-serif;
+    font-family: 'PoynterOldstyleDisplay-SemiBold', 'PoynterOldstyleDisplay-NarBold', sans-serif;
 
 }
-.sfoglia-quotidiano:hover{
+
+.sfoglia-quotidiano:hover {
     background-color: lightgrey;
     color: black;
 }
-.sfoglia-quotidiano img{
+
+.sfoglia-quotidiano img {
     height: 20px;
     width: 20px;
     margin: 12px;
 }
 
 
-
 .social-page {
     width: 30px;
 }
+
 .social-page img {
     width: 20px;
     margin: 12px;
@@ -220,7 +244,8 @@ a {
     text-align: center;
 
 }
-#edition-choice h5{
+
+#edition-choice h5 {
     font-weight: bold;
     font-family: 'Franklin_Gothic_Book', sans-serif;
 }
@@ -248,6 +273,7 @@ a {
     font-weight: bold;
     font-size: 14px;
 }
+
 #editions a {
     font-family: 'Franklin_Gothic_Book', sans-serif;
 }
@@ -307,7 +333,6 @@ a {
 }
 
 
-
 .row img {
     width: 100%;
 }
@@ -324,7 +349,7 @@ a {
 .le-iniziative {
     background-color: #e6e6e6;
     padding: 0px;
-    font-family: 'PoynterOldstyleDisplay-NarBold',sans-serif;
+    font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
 }
 
 .le-iniziative img {
@@ -367,7 +392,8 @@ a {
 .articoli-in-Evidenza {
     padding: 24px 0 0 0;
 }
-.articoli-in-Evidenza h1{
+
+.articoli-in-Evidenza h1 {
     font-weight: bold;
     font-size: 21px;
     line-height: 24px;
@@ -386,33 +412,35 @@ a {
     margin: 4px;
 }
 
-.sezione-destra-sport h5{
+.sezione-destra-sport h5 {
     margin: 0;
     color: darkred;
     font-weight: bold;
 
 }
-.sotto-articoli-senza-immagine{
-padding: 8px 12px 0px 12px;
+
+.sotto-articoli-senza-immagine {
+    padding: 8px 12px 0px 12px;
 }
-.sotto-articoli-senza-immagine h5{
+
+.sotto-articoli-senza-immagine h5 {
     margin: 8px 0 8px 0;
     color: darkred;
     font-weight: bold;
 }
 
-.bottom-sezione-sport{
+.bottom-sezione-sport {
     padding: 16px 12px 0px 16px
 }
 
-.sezione-sport h4{
+.sezione-sport h4 {
     font-weight: bold;
     font-size: 21px;
     line-height: 21px;
     margin: 0;
 }
 
-.promozione{
+.promozione {
     background-image: url("img/articles/bannerPromozione.jpg");
     background-size: 100% 100%;
     height: 208px;
@@ -423,7 +451,8 @@ padding: 8px 12px 0px 12px;
     flex-direction: column;
 
 }
-#promozione-verticale{
+
+#promozione-verticale {
     margin: 12px;
     padding: 0;
     width: 100%;
@@ -433,18 +462,21 @@ padding: 8px 12px 0px 12px;
     justify-content: left;
     color: white;
 }
-#promozione-verticale h1{
+
+#promozione-verticale h1 {
     line-height: 1.235;
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     font-weight: bold;
-    margin:0;
+    margin: 0;
 }
-#promozione-verticale h2{
+
+#promozione-verticale h2 {
     font-size: 21px;
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     font-weight: bold;
 }
-#promozione-orizzontale{
+
+#promozione-orizzontale {
     margin: 12px;
     padding: 0;
     width: 100%;
@@ -454,10 +486,11 @@ padding: 8px 12px 0px 12px;
     justify-content: left;
     color: white;
 }
-.button{
+
+.button {
     background-color: white;
     border: none;
-    color:#921421;
+    color: #921421;
     border-radius: 0;
     text-decoration: none;
     font-size: 14px;
@@ -468,18 +501,20 @@ padding: 8px 12px 0px 12px;
     margin-left: 12px;
     font-family: 'ITCFranklinGothicStd-Book', sans-serif;
 }
+
 .button:hover {
     color: #921421;
     background-color: white;
 }
-#bottone-promozionale{
+
+#bottone-promozionale {
     display: flex;
     position: absolute;
-    bottom:10px;
+    bottom: 10px;
     align-items: center;
 }
 
-#bottone-promozionale p1{
+#bottone-promozionale p1 {
     font-size: 30px;
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     margin-left: auto;
@@ -489,7 +524,7 @@ padding: 8px 12px 0px 12px;
 
 }
 
-.promozione1{
+.promozione1 {
     background-image: url("img/articles/bannerPromozione.jpg");
     background-size: 100% 100%;
     height: 208px;
@@ -498,63 +533,72 @@ padding: 8px 12px 0px 12px;
     margin-bottom: 16px;
     margin-top: 8px;
 }
-.promozione1 h1{
+
+.promozione1 h1 {
     line-height: 1.235;
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     font-weight: bold;
-    margin:0;
+    margin: 0;
 }
-.promozione1 h2{
+
+.promozione1 h2 {
     font-size: 21px;
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     font-weight: bold;
 }
-#titolo-promozione{
+
+#titolo-promozione {
     margin: 12px;
     color: white;
 }
-#titolo-promozione h1{
+
+#titolo-promozione h1 {
     font-size: 30px;
 }
-#titolo-promozione h2{
+
+#titolo-promozione h2 {
     font-size: 19px;
 }
 
-.spettacoli-e-cultura h2{
+.spettacoli-e-cultura h2 {
     margin: 0 0 1px;
     font-weight: bold;
     font-size: 35px;
 
 }
-.spettacoli-e-cultura h4{
+
+.spettacoli-e-cultura h4 {
     margin: 0;
     font-weight: bold;
     font-size: 21px;
 }
 
-.spettacoli-e-cultura-small-immagini{
+.spettacoli-e-cultura-small-immagini {
     padding: 20px 12px 0px 16px
 }
-.spettacoli-e-cultura-small-immagini h4{
+
+.spettacoli-e-cultura-small-immagini h4 {
     margin: 0;
     font-weight: bold;
     font-size: 21px;
 }
 
-.foto-testo-com-e-op{
-    padding:16px;
+.foto-testo-com-e-op {
+    padding: 16px;
     border-radius: 4px;
     border-bottom: 2px outset lightgray;
     border-top: 1px outset lightgray;
     border-left: 1px outset lightgray;
     border-right: 1px outset lightgray;
 }
-.foto-testo-com-e-op h4{
+
+.foto-testo-com-e-op h4 {
     margin: 0;
     font-weight: bold;
-    font-size: 20px;}
+    font-size: 20px;
+}
 
-.foto-testo-com-e-op img{
+.foto-testo-com-e-op img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -563,114 +607,130 @@ padding: 8px 12px 0px 12px;
     object-fit: cover;
 }
 
-.footer-image-logo img{
-    width:90%;
+.footer-image-logo img {
+    width: 90%;
     height: 80%;
     object-fit: contain;
 }
 
-.flex-row-reverse{
+.flex-row-reverse {
     align-items: center;
 }
 
-.p-2 img{
+.p-2 img {
     width: 20px;
     margin: 12px;
 }
-.row-footer-info{
+
+.row-footer-info {
     text-align: center;
     padding: 16px;
 }
 
-.row-footer-info .info h1{
+.row-footer-info .info h1 {
     font-size: 18px;
     font-family: 'Franklin_Gothic_Book', sans-serif;
 }
-.col-2-footer{
-    padding:16px 8px 16px 16px;
+
+.col-2-footer {
+    padding: 16px 8px 16px 16px;
     text-align: center;
 
 }
-.flex-row{
+
+.flex-row {
     justify-content: space-between;
     padding-top: 12px;
 }
-.flex-row h1{
+
+.flex-row h1 {
     font-size: 18px;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
 
-.immagine-videocamera{
+.immagine-videocamera {
     background-color: #921421;
     border: 16px;
     display: block;
     text-align: center;
 
 }
-.immagine-videocamera img{
+
+.immagine-videocamera img {
     width: 48px;
     height: 48px;
     object-fit: cover;
     position: relative;
-    bottom:24px;
+    bottom: 24px;
     z-index: 2;
     border-radius: 50%;
 }
-.container-video{
+
+.container-video {
     padding-top: 24px;
 }
 
-.container-video #header-video{
+.container-video #header-video {
     background-color: #921421;
     text-align: center;
 }
-#header-video h1{
+
+#header-video h1 {
     font-size: 21px;
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
     font-weight: bold;
     margin: 0;
     color: white;
 }
-.container-video .row-video{
+
+.container-video .row-video {
 
 }
-.row-video h1{
+
+.row-video h1 {
     color: white;
-    font-size:14px;
+    font-size: 14px;
     margin: 0 8px;
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
 }
-.row-video h2{
-    font-size:20px;
+
+.row-video h2 {
+    font-size: 20px;
     color: white;
     margin: 0 8px;
     font-family: 'PoynterOldstyleDisplay-NarBold', sans-serif;
 }
-.container-video .video-in-evidenza{
-padding: 8px;
+
+.container-video .video-in-evidenza {
+    padding: 8px;
 }
 
 
-.sfondo-video{
+.sfondo-video {
     background-color: #921421;
 }
-.footer-gruppo-sae{
+
+.footer-gruppo-sae {
     background-color: #063A74;
     padding: 0;
     margin: 0;
 }
+
 .container-footer-gruppo-sae {
-    padding:16px;
+    padding: 16px;
 }
-.footer-gruppo-sae .immagini-testo{
-    padding:16px 0 0 0;
+
+.footer-gruppo-sae .immagini-testo {
+    padding: 16px 0 0 0;
 
 }
-.footer-gruppo-sae .immagini-testo img{
+
+.footer-gruppo-sae .immagini-testo img {
     height: 100px;
     width: 100px;
 }
-.footer-gruppo-sae .immagini-testo h6{
+
+.footer-gruppo-sae .immagini-testo h6 {
     font-size: 18px;
     font-family: 'Franklin_Gothic_Book', sans-serif;
     margin: 0;
@@ -678,7 +738,7 @@ padding: 8px;
     line-height: 30px;
 }
 
-.footer-gruppo-sae .immagini-testo h5{
+.footer-gruppo-sae .immagini-testo h5 {
     font-size: 16px;
     font-family: 'Franklin_Gothic_Book', sans-serif;
     font-weight: 400;
@@ -688,8 +748,7 @@ padding: 8px;
 }
 
 
-
-.white{
+.white {
     height: 1px;
     background-color: #fff;
     border: none;
